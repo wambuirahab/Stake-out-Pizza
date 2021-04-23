@@ -100,12 +100,12 @@
             <form class="text-center" id="text-center">
               <br><label>Pick your pizza flavour</label><br>
               </label><select class="flavours" id="flavour" required><br>
-                  <option label="vegtikka" value="750">Veg Tikka</option>
-                  <option label="chickentikka" value="800">Chicken Tikka</option>
-                  <option label="periperi" value="1200">Peri-Peri</option>
-                  <option label="boerewors" value="500">Boerewors</option>
-                  <option label="hawaiian" value="900">Hawaiian</option>
-                  <option label="mushroom" value="600">Chicken and Mushroom</option>
+                  <option label="vegtikka">Veg Tikka</option>
+                  <option label="chickentikka">Chicken Tikka</option>
+                  <option label="periperi">Peri-Peri</option>
+                  <option label="boerewors">Boerewors</option>
+                  <option label="hawaiian">Hawaiian</option>
+                  <option label="mushroom">Chicken and Mushroom</option>
                 </select><br>
                 <br><label>Choose your preffered size</label><br>
                 <label><select class="sizes" id="sizes" required><br>
@@ -123,7 +123,7 @@
                 </select><br>
                 <br><label>Select your favourite toppings</label><br>
                 <select class="toppings" id="topping" required><br>
-                <option label="Green peppers" value="100">Green Peppers</option>
+                <option label="Green peppers" value="100">Green peppers</option>
                 <option label="Mushrooms" value="200">Mushrooms</option>
                 <option label="Onions" value="80">Onions</option>
                 <option label="Pepperoni" value="300">Pepperoni</option>
@@ -146,8 +146,29 @@
               </ol>
             </div>
 
+            <div class="cdata-overlay">
+              <div class="customerdata row">
+                  <div class="col-sm-3"></div>
+                  <form action="" class="form-group col-sm-6 data">
+                      <input type="text" class="form-control cdata" placeholder="Enter your Name:">
+                      <input type="text" class="form-control cdata" placeholder="Enter your phone number: ">
+                      <input type="text" class="form-control cdata" placeholder="Enter the location: ">
+                      <button class="btn bg-info text-center d-block mx-auto go">Make Delivery</button>
+                  </form>
+      
+                  <div class="col-sm-3"></div>
+              </div>
+          </div>
+          <div class="d-block mx-auto text-center">
+              <button class='deliver'>Make Delivery</button>
+              <button class='delivernot'>Pick Up</button>
+          </div>
+      </div
 
-            <div class="card-footer" id="contacts">
+
+
+      
+      <div class="card-footer" id="contacts">
               <h5>Contacts</h5>
 
              <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
