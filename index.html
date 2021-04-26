@@ -8,7 +8,7 @@
   <link rel="icon" href="./images/pizza icon.jpg">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap" rel="stylesheet">"
+  <link href="https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   
 </head>
@@ -37,12 +37,10 @@
   <div class="container">
     <h3>About Us</h3>
     <div class="row">
-      <img src="images/pizzaimage 1.jpg" class="text-center" id="image1" width="2000px" height="500px">
-      </div>
+      <img src="images/pizzaimage 1.jpg" class="text-center" id="image1" width="1500px" height="500px">
+       </div>
       <div id="about us" class="text-center">
-        <p><b>Welcome To<span>Stake Out Pizza</span></b></p>
-        <p></p>
-        <div id="about us">
+            <div id="about us">
           <p>Stake Out Pizza was opened in late 2016 and has been in business since then.<br>We are a resturant that offers state-of-the-art pizzas in a serene environment with a team of dedicated employees.<br>Our services range from home deliveries to offering our clientele discounts on weekdays.<br>Thank you for choosing Stake Out Pizza as your resturant of choice. </p>
 
         </div>
@@ -52,42 +50,29 @@
 
       <!--Menu-->
       <h4>Menu</h4>
-      <div id="menu">
-        <div class="regular">
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img src="images/pizzaimage 2.jpg" width="500px" height="350px"><br><br>
+        <div class="col-sm-4">
+                <img src="images/pizzaimage 2.jpg"width="1000px" height="400px"><br><br>
               </div>
-              <div class="flip-card-back">
-                <h3>Regular pizza</h3>
-                <p>Kshs.350</p>
+                <h7>Regular pizza</h7>
+                <p1>Kshs.350</p1>
               </div>
             </div>
           </div>
         </div>
-        <div class="medium">
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img src="images/pizzaimage 3.jpg" width="500px" height="350px"><br><br>
+        <div class="col-sm-4">
+                <img src="images/pizzaimage 3.jpg" width="1000px" height="400px"><br><br>
               </div>
-              <div class="flip-card-back">
-                <h3>Medium pizza</h3>
-                <p>Kshs.750</p>
+                <h7>Medium pizza</h7>
+                <p1>Kshs.750</p1>
               </div>
             </div>
           </div>
         </div>
-        <div class="large">
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img src="images/pizzaimage4.jpg" width="500px" height="350px">
+        <div class="col-sm-4">
+                <img src="images/pizzaimage4.jpg" width="1000px" height="400px">
               </div>
-              <div class="flip-card-back">
-                <h3>Large Pizza</h3>
-                <p>Kshs.1200</p>
+                <h7>Large Pizza</h7>
+                <p1>Kshs.1200</p1>
               </div>
             </div>
           </div>
@@ -96,7 +81,7 @@
 
           <!--Orders-->
           <div class="orders" id="order">
-            <h5>Order</h5>
+            <br><h5>Orders</h5><br>
             <form class="text-center" id="text-center">
               <br><label>Pick your pizza flavour</label><br>
               </label><select class="flavours" id="flavour" required><br>
@@ -109,39 +94,53 @@
                 </select><br>
                 <br><label>Choose your preffered size</label><br>
                 <label><select class="sizes" id="sizes" required><br>
-                  <option label="Regular" value="350">Regular</option>
-                  <option label="Medium" value="750">Medium</option>
-                  <option label="Large" value="1200">Large</option>
+                  <option value="Regular" value="350">Regular @ Ksh. 350</option>
+                  <option value="Medium" value="750">Medium @ Ksh. 750</option>
+                  <option value="Large" value="1200">Large @ Ksh. 1200</option>
                 </select><br>
                 <br><label>Choose your favourite crust</label><br>
                 <select class="crust" id="crust" required><br>
-                  <option label="Thin crust" value="120">Thin Crust</option>
-                  <option label="Thick crust" value="230">Thick Crust</option>
-                  <option label="Stuffed crust" value="350">Stuffed Crust</option>
-                  <option label="Deep crust" value="280">Deep crust</option>
-                  <option label="Cheese filled crust" value="420">Cheese Filled Crust</option>
+                  <option value="Thin crust" value="120">Thin Crust @ Ksh. 120</option>
+                  <option value="Thick crust" value="230">Thick Crust @ Ksh. 230</option>
+                  <option value="Stuffed crust" value="350">Stuffed Crust @ Ksh. 350</option>
+                  <option value="Deep crust" value="280">Deep crust @ Ksh. 280</option>
+                  <option value="Cheese filled crust" value="420">Cheese Filled Crust @ Ksh. 420</option>
                 </select><br>
-                <br><label>Select your favourite toppings</label><br>
-                <select class="toppings" id="topping" required><br>
-                <option label="Green peppers" value="100">Green peppers</option>
-                <option label="Mushrooms" value="200">Mushrooms</option>
-                <option label="Onions" value="80">Onions</option>
-                <option label="Pepperoni" value="300">Pepperoni</option>
-                <option label="Sausage" value="150">Sausage</option>
+                <br><label>Select your favourite toppings at Ksh. 180 each</label><br>
+                <div class="custom-control custom-checkbox custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="Green pepper" value="Green pepper" name="toppings">
+                  <label class="custom-control-label" for="Green pepper">Green pepper</label>
+                </div>
+                <div class="custom-control custom-checkbox custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="Mushrooms" value="Mushrooms" name="toppings">
+                  <label class="custom-control-label" for="Mushrooms">Mushrooms</label>
+                </div>
+                <div class="custom-control custom-checkbox custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="Onions" value="Onions" name="toppings">
+                  <label class="custom-control-label" for="Onions">Onions</label>
+                </div>
+                <div class="custom-control custom-checkbox custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="Pepperoni" value="Pepperoni" name="toppings">
+                  <label class="custom-control-label" for="Pepperoni">Pepperoni</label>
+                </div>
+                <div class="custom-control custom-checkbox custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="Sausage" value="Sausage" name="toppings">
+                  <label class="custom-control-label" for="Sausage">Sausage</label>
+                </div>
                 </select><br>
-                <br><label>Number of pizza</label><br>
-                <input value="" required placeholder="number of pizza" id="quantity"></input><br>
+                <br><label for="number">Number of Pizza's</label><br>
+                <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1" required><br>
                 <div class="button">
-                  <br><br><button type="submit" id="button"
-
-                  label="">Submit</button>
+                  <br><br><button type="submit" class="btn btn-warning checkout" id="checkout">
+                    Checkout
+                  </button>
                 </div>
               </form>
             </div>
 
             <div class="order-summary" id="sum-order">
-              <br><h4 class="text-center" id="summary">Order Summary</h4><br>
-              <h5 class="text-center summary">Hello there,we have received your order and it is as follows</h5>
+              <br><h6 class="text-center" id="summary">Order Summary</h6><br>
+              <h8 class="text-center summary">Hello there,we have received your order and it is as follows</h8>
               <ol id="list" class="text-center sum">
               </ol>
             </div>
@@ -164,13 +163,9 @@
               <button class='delivernot'>Pick Up</button>
           </div>
       </div
-
-
-
-      
       <div class="card-footer" id="contacts">
-              <h5>Contacts</h5>
-
+              <br><h9>Contacts</h9><br>
+              <div class="socials">
              <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
              <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
              <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a>
@@ -185,10 +180,7 @@
 
   <!--End of Content-->
 
-
-
-  
-</body>
 <script src="js/jquery-3.4.1.js"></script>
 <script src="js/script.js"></script>
+</body>
 </html>
