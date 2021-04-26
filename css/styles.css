@@ -80,9 +80,8 @@ p{
   font-family: 'Goudy Bookletter 1911', serif;
 }
 
-
-#img1{
-  margin-left: 0%; 
+#image1{
+  margin-right: 3%; 
   overflow: hidden;
   object-fit: cover;
   border-radius: 20px;
@@ -134,6 +133,9 @@ h5{
   background-color: chocolate;
   font-size: 20px;
   font-family: 'Original Surfer',cursive;
+  height: inherit;
+  padding: 20px;
+  border-radius: 20px;
 }
 /*menu*/
 h7{
@@ -144,14 +146,32 @@ h7{
 
 /*order summary*/
 h6{
-  color: #9acd32;
+  color: black;
   font-size: 30px;
-  font-family: 'Goudy Bookletter 1911', serif;
+  font-family: 'Original Surfer', cursive;
+  font-style: italic;
 }
-#contacts{
+/*card-footer*/
+h9{
   font-family: 'Goudy Bookletter 1911',serif;
-  font-size: 30px;
+  font-size: 50px;
   color: #9acd32;
+  text-align: center;
+  margin-left: 500px;
+}
+
+.checkout{
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.socials{
+  margin-left: 500px;
+  font-size: 50px;
+
+}
+.button{
+  border-radius: 20px;
+  margin-top: 20px;
 }
   
 
