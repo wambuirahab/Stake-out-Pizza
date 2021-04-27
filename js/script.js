@@ -356,9 +356,9 @@ $("#checkout").click(function(){
 
     
         });
+        event.preventDefault();
 
       });
 
 
 
-})
